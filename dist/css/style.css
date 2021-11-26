@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to bottom right, red, yellow);
+    font-family: 'Open Sans', sans-serif;
+}
+.maincontainer {
+    margin: auto;
+    height: 300px;
+    width: 400px;
+    background-color: rgb(32, 32, 32);
+    background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(to bottom, rgb(8, 8, 8), rgb(32, 32, 32));
+    background-size: 10px 10px, 10px 10px, 10px 5px;
+    background-position: 0px 0px, 5px 5px, 0px 0px;
+    border-top: 4px solid yellow;
+}
+.headcontainer {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid white;
+}
+h2 {
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+    /* width: 30%; */
+}
+.headcontainer a {
+    display: inline-block;
+    position: relative;
+    /* width: 70%; */
+    /* text-align: center;
+    display: flex; */
+   float: right;
+   margin-top: -40px;
+   /* margin-bottom: 20px; */
+
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+.footer {
+    width: 100%;
+    border: 1px solid white;
+}
+.footer a {
+    padding: 10px; 
+    float: right;
+}
+.footer input {
+   justify-items: center;
+
+}
+
+.inputcontainer {
+    width: auto;
+    flex-wrap: wrap;
+    margin: 10px 10px;
+    border: 1px solid white;
+}
+.inputcontainer input {
+    width: 100%;
+    background-color: rgb(255, 208, 0);
+    color: white;
+    margin: 5px 0;
+}
+.button {
+    width: 50%;
+    margin-left: 15px;
+    padding: 10px;
+    background-color: rgb(63, 63, 63);
+    color: rgba(109, 109, 109, 0.5);
+}
+.button:hover {
+    background-color: rgb(8, 8, 8);
+}
